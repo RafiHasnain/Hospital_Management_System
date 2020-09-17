@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+}
+
+.Dashboard{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    float: left;
+    margin-left: 25%;
+}
+.menuBar {
+    background-color: rgba(32,87,106,1);
+    position: absolute;
+    overflow: visible;
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+    
+    
+}
+.menuBar ul {
+    position: absolute;
+    top: 25%;
+    list-style: none;
+}
+.menuBar li {
+    padding: 5%;
+}
+.menuBar li a{
+    
+    overflow: visible;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 50%;
+    padding-right: 250%;
+    display: block;
+    text-align: left;  
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+}
+.menuBar li a:hover{
+    background-color: white;
+    color: rgba(32,87,106,1);;
+}
+#Hospital_Management_System {
+    left: 25%;
+    top: 5%;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Dashboard_heading{
+    left: 10%;
+    top: 15%;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(32,87,106,1);
+}
+
+.Rectangle_1 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 10%;
+    top:  25%;
+    text-align: center;
+    
+}
+.Rectangle_1 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_1 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+
+.Rectangle_2 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 35%;
+    top:  25%;
+    text-align: center;
+}
+.Rectangle_2 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_2 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+
+.Rectangle_3 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 60%;
+    top:  25%;
+    text-align: center;
+}
+.Rectangle_3 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_3 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+
+.Rectangle_4 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 10%;
+    top:  50%;
+    text-align: center;
+}
+.Rectangle_4 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_4 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+.Rectangle_5 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 35%;
+    top:  50%;
+    text-align: center;
+}
+.Rectangle_5 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_5 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+
+.Rectangle_6 { 
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 20%;
+    left: 60%;
+    top:  50%;
+    text-align: center;
+}
+.Rectangle_6 a{
+    color: rgba(58,158,157,1);
+    padding-top: 45px;
+    padding-bottom: 52px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Rectangle_6 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+.Rectangle_7 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 10%;
+    left: 10%;
+    top:  75%;
+    text-align: center;
+}
+.Rectangle_7 a{
+    color: rgba(58,158,157,1);
+    padding-top: 15px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+}
+.Rectangle_7 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+.Rectangle_8 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 10%;
+    left: 35%;
+    top:  75%;
+    text-align: center;
+}
+.Rectangle_8 a{
+    color: rgba(58,158,157,1);
+    padding-top: 15px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+}
+.Rectangle_8 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}
+.Rectangle_9 {
+    fill: rgba(255,255,255,1);
+    border-style: solid;
+    border-color: rgba(112,112,112,1); 
+    border-width: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 20%;
+    height: 10%;
+    left: 60%;
+    top:  75%;
+    text-align: center;
+}
+.Rectangle_9 a{
+    color: rgba(58,158,157,1);
+    padding-top: 15px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+}
+.Rectangle_9 a:hover{
+    background-color:  rgba(58,158,157,1);
+    color: white;
+}/*
+#Doctor {
+    left: 536px;
+    top: 306px;
+    position: absolute;
+    overflow: visible;
+    width: 104px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Patient {
+    left: 812px;
+    top: 309px;
+    position: absolute;
+    overflow: visible;
+    width: 112px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Nurse {
+    left: 1102px;
+    top: 306px;
+    position: absolute;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Staff {
+    left: 551px;
+    top: 509px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Medicine {
+    left: 797px;
+    top: 509px;
+    position: absolute;
+    overflow: visible;
+    width: 142px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Payment {
+    left: 1077px;
+    top: 510px;
+    position: absolute;
+    overflow: visible;
+    width: 142px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(58,158,157,1);
+}
+#Operation_Report {
+    left: 486px;
+    top: 681px;
+    position: absolute;
+    overflow: visible;
+    width: 204px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(58,158,157,1);
+}
+#Birth_Report {
+    left: 798px;
+    top: 680px;
+    position: absolute;
+    overflow: visible;
+    width: 141px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(58,158,157,1);
+}
+#Death_Report {
+    left: 1070px;
+    top: 680px;
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(58,158,157,1);
+}*/
+
+.userPanel {
+    background-color:  rgba(255,255,255,0.22);
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 20%;
+    left: 0px;
+    top: 0px;
+}
+
+
+/*
+#hamburger {
+    position: absolute;
+    width: 53px;
+    height: 47px;
+    left: 276px;
+    top: 60px;
+    overflow: visible;
+    fill: rgba(255,255,255,0.302);
+}
+
+*/
+
+#Welcome {
+    left: 20%;
+    top:  25%;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(58,158,157,1);
+    
+}
+#userName {
+    left: 20%;
+    top: 45%;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+    
+}
+/*
+#Dashboard {
+    left: 71px;
+    top: 193px;
+    position: absolute;
+    overflow: visible;
+    width: 113px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Dashboard :hover{
+    
+    color: black;
+}
+#Department {
+    left: 71px;
+    top: 247px;
+    position: absolute;
+    overflow: visible;
+    width: 122px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Department :hover{
+    
+    color: black;
+}
+#Doctor_b {
+    left: 71px;
+    top: 301px;
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Doctor_b :hover{
+    
+    color: black;
+}
+#Patient_b {
+    left: 71px;
+    top: 355px;
+    position: absolute;
+    overflow: visible;
+    width: 71px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Patient_b :hover{
+    
+    color: black;
+}
+#Nurse_b {
+    left: 71px;
+    top: 409px;
+    position: absolute;
+    overflow: visible;
+    width: 58px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Nurse_b :hover{
+    
+    color: black;
+}
+
+#Stuff {
+    left: 71px;
+    top: 463px;
+    position: absolute;
+    overflow: visible;
+    width: 46px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Stuff :hover{
+    
+    color: black;
+}
+#Medicine_b {
+    left: 71px;
+    top: 517px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Medicine_b :hover{
+    
+    color: black;
+}
+#Payment_b {
+    left: 71px;
+    top: 571px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Payment_b :hover{
+    
+    color: black;
+}
+
+#Logout {
+    left: 71px;
+    top: 625px;
+    position: absolute;
+    overflow: visible;
+    width: 69px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Custom_Size___1.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}*/
+#user {
+    left: 20%;
+    top:  70%;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,0.631);
+}

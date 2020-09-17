@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#container   {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    width: 90%;
+    background-color: white;
+    margin: 0px auto;
+    padding: 3%;
+    padding-top: 5%;
+    align: center;
+    
+}
+
+
+#bgImage {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    left: 487px;
+    top: 50px;
+    
+}
+#Rectangle {
+    opacity: 0.91;
+    fill: rgba(0,0,0,0.529);
+}
+.Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 426px;
+    height: auto;
+    left: 487px;
+    top: 50px;
+}
+#heading {
+    filter: drop-shadow(-2px 6px 6px rgba(4, 4, 4, 0.729));
+    left: 505px;
+    top: 191px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(140,193,158,1);
+}
+#textbox_username {
+    background-color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    position: absolute;
+    width: 286px;
+    height: 38px;
+    left: 557px;
+    top: 316px;
+    overflow: visible;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+
+#textbox_password {
+    background-color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    position: absolute;
+    width: 286px;
+    height: 38px;
+    left: 557px;
+    top: 380px;
+    overflow: visible;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#button_1 {
+    background-color: rgba(58,158,157,1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  padding-bottom: 35px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  
+    height: 38px;
+    left: 645px;
+    top: 450px;
+    overflow: visible;
+  
+
+}
+#button_1:hover{
+    background-color: #fff;
+    color: rgba(58,158,157,1);
+}
+#button_2 {
+    background-color: rgba(32,87,106,1);
+  border: none;
+  color: white;
+  padding: 15px 26px;
+  padding-bottom: 35px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 4px 1px;
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  
+    height: 38px;
+    left: 645px;
+    top: 525px;
+    overflow: visible;
+  
+
+}
+#button_2:hover{
+    background-color: #fff;
+    color: rgba(32,87,106,1);
+}
+
